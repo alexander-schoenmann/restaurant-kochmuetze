@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header with navbar */
+
+.firstNav {
+  margin-bottom: 15px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 34px;
+
+  a {
+    font-size: 14px;
+    color: grey;
+  }
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+.breadcrumb-item a {
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.navbar-nav > * {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+nav {
+  .active {
+    font-weight: bolder;
+  }
+
+  > * {
+    font-size: 18px;
+  }
+
+  a {
+    color: black;
+  }
+}

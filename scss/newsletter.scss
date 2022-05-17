@@ -1,0 +1,12 @@
+.send {
+  background-color: #F8F9FA;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: black;
+
+  &:hover {
+    background-color: #c3c4c5;
+    border: 1px solid black;
+    color: black;
+  }
+}

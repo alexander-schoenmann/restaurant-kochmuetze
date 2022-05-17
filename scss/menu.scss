@@ -1,0 +1,49 @@
+.menuplan {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 8px 25px;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: normal;
+}
+
+.page-link {
+  border: 1px solid black;
+  color: black;
+}
+
+.page-item:hover .page-link {
+  background-color: #e2e3e4;
+  border: 1px solid black;
+  color: black;
+}
+
+.plan {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: fadeInMenu;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInMenu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
