@@ -1,0 +1,76 @@
+.welcome-header {
+  background-image: url("public/images_min/header2.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.welcome-header-2 {
+  background-image: url("public/images_min/header1.jpg");
+}
+
+.welcome-header-3 {
+  background-image: url("public/images_min/header3.jpg");
+}
+
+.bg-custom {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.menu {
+  background-color: #F8F9FA;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  animation-duration: 1s;
+  animation-name: bounceIn;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  &:hover {
+    background-color: #c3c4c5;
+    border: 1px solid black;
+    color: black;
+  }
+}
+
+.myCards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card {
+  width: 15rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 993px) {
+  .card {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 9.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .myCards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 15rem;
+    margin: 0px auto 40px auto;
+  }
+
+  .menuplan a {
+    padding: 8px 15px;
+  }
+}
