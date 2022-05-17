@@ -1,15 +1,21 @@
-.welcome-header {
-  background-image: url("public/images_min/header2.jpg");
+.welcomeHeaderLayout{
   min-height: 300px;
   background-size: cover;
 }
 
+.welcome-header {
+  @extend .welcomeHeaderLayout;
+  background-image: url("../images_min/header2.jpg");
+}
+
 .welcome-header-2 {
-  background-image: url("public/images_min/header1.jpg");
+  @extend .welcomeHeaderLayout;
+  background-image: url("../images_min/header1.jpg");
 }
 
 .welcome-header-3 {
-  background-image: url("public/images_min/header3.jpg");
+  @extend .welcomeHeaderLayout;
+  background-image: url("../images_min/header3.jpg");
 }
 
 .bg-custom {
@@ -48,19 +54,19 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 993px) {
+@include for-desktop{
   .card {
     width: 12rem;
   }
 }
 
-@media (max-width: 768px) {
+@include for-tablet{
   .card {
     width: 9.5rem;
   }
 }
 
-@media (max-width: 580px) {
+@include for-phone{
   .myCards {
     flex-direction: column;
   }
