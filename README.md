@@ -6,4 +6,4 @@ To load the web page, you have to navigate into the folder and execute the follo
 1. npm install
 2. grunt
 
-Then a folder "public" is created, which contains the necessary html, css and image files.
+Then a folder "public" gets created, which contains the necessary html, css and image files.
